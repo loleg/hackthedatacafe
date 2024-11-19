@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Hack the Data Café
+  description: According to ChatGPT, it's not the same at all.
+  # keywords: []
+  authors:
+    - name: Oleg
+      orcid: 0000-0002-9451-3469
+      github: loleg
+  github: https://github.com/dribdat/hackthedatacafe
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Organizing Preparation
+      children:
+        - file: how-to-edit-content.md
+        - file: organizing-checklist.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
